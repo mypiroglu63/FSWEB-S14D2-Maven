@@ -25,6 +25,9 @@ public class Main {
         bedroom.getCarpet().lying();
         bedroom.getCeiling().create();
         bedroom.getWall1().create();
+        bedroom.getWall2().create();
+        bedroom.getWall3().create();
+        bedroom.getWall4().create();
 
 
         System.out.println("Bedroom Name: " + bedroom.getName());
